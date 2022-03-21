@@ -2,11 +2,13 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
+        <g-link to="/"><g-image alt="CBEBirr Payment Gateway" src="~/heading2.png" width="400"/></g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
+        <!-- <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="nav__link" to="/contact/">Contact</g-link> -->
       </nav>
     </header>
     <slot/>

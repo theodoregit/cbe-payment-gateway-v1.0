@@ -8,5 +8,11 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.4.3",
+    "tailwindcss": "^3.0.23"
   }
 }
